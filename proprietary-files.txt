@@ -15,9 +15,9 @@ system_ext/lib64/libOpenCL_system.so:system/lib64/libOpenCL_system.so
 # Device Camera Deps
 vendor/lib/libcom.xiaomi.pluginutils.so
 vendor/lib/libcom.xiaomi.metadatautils.so
+vendor/lib/hw/camera.xiaomi.so
 vendor/lib/hw/vendor.xiaomi.hardware.campostproc@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.campostproc@1.0-impl.so
-vendor/lib/hw/camera.xiaomi.so
 system/lib64/libarcsoft_single_chart_calibration.so
 system/lib64/libgallery_arcsoft_dualcam_refocus.so;FIX_SONAME
 system/lib64/libgallery_arcsoft_portrait_lighting.so;FIX_SONAME
@@ -50,6 +50,12 @@ vendor/lib64/libarcsat.so
 vendor/lib64/libmiai_deblur.so
 vendor/lib64/libmiai_portraitsupernight.so
 vendor/lib64/libsdk_sr.so
+system/lib64/android.frameworks.bufferhub@1.0.so
+system/lib64/libbufferhub.so
+system/lib64/libbufferhubqueue.so
+system/lib64/libpdx_default_transport.so
+vendor/camera/mimoji/data.zip
+vendor/camera/mimoji/model2.zip
 
 # Device Camera Postprocessing Framework
 system/framework/vendor.xiaomi.hardware.campostproc-V1.0-java.jar
@@ -59,6 +65,9 @@ system/etc/permissions/vendor.xiaomi.hardware.campostproc-V1.0-java-permission.x
 system/lib64/libmqsas.so
 system_ext/lib64/libcameraimpl.so:system/lib64/libcameraimpl.so
 system_ext/lib64/libopencl-camera.so:system/lib64/libopencl-camera.so
+vendor/etc/camera/sr_params.xml
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc2.so
 
 # MiSys
 system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
